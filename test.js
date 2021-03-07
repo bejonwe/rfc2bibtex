@@ -25,6 +25,7 @@ test('Output', async t => {
   NUMBER= 4634,
   YEAR = {2006},
   MONTH = {July},
+  INSTITUTION = "{RFC Editor}",
   doi = {10.17487/RFC4634}
 }`);
 
@@ -35,6 +36,7 @@ test('Output', async t => {
 \tNUMBER= 4634,
 \tYEAR = {2006},
 \tMONTH = {July},
+\tINSTITUTION = "{RFC Editor}",
 \tdoi = {10.17487/RFC4634}
 }`);
 });

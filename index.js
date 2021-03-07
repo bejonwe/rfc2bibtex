@@ -64,6 +64,7 @@ ${indentation}TYPE= {RFC},
 ${indentation}NUMBER= ${rfc},
 ${indentation}YEAR = {${year}},
 ${indentation}MONTH = {${month}},
+${indentation}INSTITUTION = "{RFC Editor}",
 ${indentation}doi = {${doi}}
 }`;
 }

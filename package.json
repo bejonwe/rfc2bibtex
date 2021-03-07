@@ -1,6 +1,6 @@
 {
 	"name": "rfc2bibtex",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Generate a BibTeX reference for a given RFC number.",
 	"license": "MIT",
 	"repository": "bejonwe/rfc2bibtex",
