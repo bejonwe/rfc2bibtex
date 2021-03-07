@@ -2,13 +2,6 @@
 
 > Generate a BibTeX reference for a given RFC number.
 
-## Install
-
-```
-$ npm install rfc2bibtex
-```
-
-
 ## CLI
 
 ```
@@ -46,6 +39,12 @@ $ rfc2bibtex --help
         MONTH = {May},
         doi = {10.17487/RFC2818}
     }
+```
+
+## Install
+
+```
+$ npm install rfc2bibtex
 ```
 
 ## Usage
