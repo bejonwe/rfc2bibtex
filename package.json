@@ -1,0 +1,44 @@
+{
+	"name": "rfc2bibtex",
+	"version": "1.0.0",
+	"description": "Generate a BibTeX reference for a given RFC number.",
+	"license": "MIT",
+	"repository": "bejonwe/rfc2bibtex",
+	"author": {
+		"name": "Jonathan Weber",
+		"email": "jw@bejonwe.de",
+		"url": "https://github.com/bejonwe"
+	},
+	"type": "module",
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"xo": {
+		"rules": {
+			"unicorn/prefer-query-selector": "off",
+			"unicorn/no-for-loop": "off"
+		}
+	},
+	"files": [
+		"index.js",
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		""
+	],
+	"dependencies": {
+		"meow": "^9.0.0",
+		"xmldom": "^0.4.0",
+		"xmlhttprequest": "^1.8.0"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.37.0"
+	}
+}
